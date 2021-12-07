@@ -23,6 +23,7 @@
 }*/
 
 .text {
+    margin-top: 45px;
     display: block;
     color: white;
 }
@@ -51,6 +52,7 @@ span {
     
 }
 .cv {
+    margin: 15px 0;
     background-color: navajowhite;
     border-style: none;
 }
@@ -101,8 +103,12 @@ span {
     height:450px;
 }
 .contact {
-    background-color: rgba(194, 72, 72, 0.815);
+    background-color: rgba(207, 98, 98, 0.815);
     padding-bottom: 20px;
+}
+.contact p {
+    font-weight: bold;
+    font-size: 20px;
 }
 .row-form {
     display: block;
