@@ -1,46 +1,73 @@
-
-  <section class="intro">
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-            
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Hire Me</a>
-                  </li>
-                  
-                </ul>
-              </div>
-            </div>
-          </nav>
-        
-          <div class="container" id="zintle">
-              <div class="row content">
-                  
-        <div class="col-md-6 text">
-        <h1>Hi, I'm <span>Zintle</span> and I am a Developer!</h1>
-        <p>This is my official portfolio website that has all my details, <br>experiences and services</p>
-        </div>
-
-        <div class="col-md-6 mb-3">
-          <img src="assets/zintle.jpg" class="img" alt="">
-        </div>
-
-        <a href="#">DOWNLOAD CV</a>
-            </div>
-    </div>
-    </section>
-
 <router-outlet></router-outlet>
+
+    <div class="header">
+
+     <nav class="navbar navbar-expand-lg bg">
+       
+       <div class="container-fluid">
+        <div class="logo"><img src="assets/zintle-logo.png" alt="" class="img-logo"></div>
+         <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hire Me</a>
+              </li>
+              
+            </ul>
+          </div>
+      </nav>
+    </div>     
+      
+          
+
+         <section class="services">
+          <!--style="background-image: url('assets/bg-img.jpg'); background-size: cover; height: 480px;"> -->
+          <div class="container" id="zintle">
+            <div class="row content">
+                <div class="col-md-6 text">
+                  <h1>Hi, I'm <span>Zintle.</span> Full Stack Website Developer</h1>
+                  <h3>This is my official portfolio website.</h3>
+                  <h4>For good looking Websites and Web Apps specializing in Angular </h4>
+                  <button class="cv"><a href="../assets/MESLANE.pdf">DOWNLOAD CV</a></button>
+                </div>
+
+                <!-- <div class="col-md-6 mb-3">
+                  <img src="assets/zintle.jpg" class="img" alt="">
+                </div> -->
+            </div>
+        </div>       
+          
+        </section>
+
+        <section class="contact">
+          <div class="container" >
+            <div class="row content">
+              <div class="col-md-6">
+                <h3>You have a business that you want to market for your goods and services but don't have a website or app? I am your go-to person.
+                  I develop sites from scratch. From designing to its functionality (Front-end and Back-end) and then deploy them for you. 
+              
+                </h3>
+              </div>
+              <div class="row-form">
+              <form action="">
+                <input type="text" id="name" placeholder="Name">
+                <input type="email" id="email" placeholder="Email">
+              </form>
+              <button class="submit">CONTACT ME</button>
+            </div>
+              
+            </div>
+        </div>
+        </section>
+
