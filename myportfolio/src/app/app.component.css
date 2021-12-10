@@ -188,13 +188,17 @@ span {
     justify-content: space-between;
     flex-direction: column;
     gap: 1rem;
-    width: 50%;
 }
 #form input {
     padding: 0.5rem 0.5rem;
   outline: none;
   border-radius: 0.5rem;
   border: none;
+}
+#form textarea {
+    border-radius: 0.5rem;
+    border: none;
+    width: 50%;
 }
 
 .btn {
@@ -207,4 +211,6 @@ span {
 .btn:hover {
     color: indianred;
 }
-
+.input-group {
+    margin: 20px 0;
+}
