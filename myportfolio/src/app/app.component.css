@@ -1,13 +1,5 @@
 
-.img-logo {
-    /* position: absolute; */
-    position: relative;
-    width: 200px;
-    border-radius: 300px;
-}
-.navbar-toggler {
-    background-color: indianred;
-}
+
 /* .container-fluid {
     display: flex;
     align-items: center;
@@ -38,22 +30,6 @@ span {
     color: indianred;
 }
 
-.nav-item a{
-    color: grey;
-    font-size: 20px;
-    cursor: pointer;
-}
-.nav-item a:hover {
-    color: indianred;
-}
-.navbar{
-    /* display: flex;
-    justify-content: center; */
-    margin: 0;
-    padding: 0;
-    min-height: 0.5rem;
-    font-family: 'Roboto Mono', monospace;
-}
 .cv {
     margin: 15px 0;
     background-color: navajowhite;
@@ -81,11 +57,22 @@ span {
     /* width: 100;
     height: 100vh; */
 
-.nav-item {
-    display: inline-block;
-    text-align: center;
-    padding: 0;
-    margin: 0 20px;
+.card-text img {
+    width: 50%;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+.card-deck {
+    margin: 0 50px;
+}
+.material-icons img {
+    width: 50%;
 }
 
 /* .img {
