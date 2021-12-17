@@ -23,16 +23,16 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="#">About</a>
+               <a class="nav-link" (click)="onClick('about')">About</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="#">Portfolio</a>
+               <a class="nav-link" routerLink="/portfolio">Portfolio</a>
              </li>
              <li class="nav-item">
                <a class="nav-link" href="#">Services</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="#">Hire Me</a>
+               <a class="nav-link" (click)="onClick('contact')">Contact Me</a>
              </li>
              
            </ul>
@@ -40,3 +40,24 @@
        </div>
      </nav>
    </div>     
+
+   <section class="services">
+    <!--style="background-image: url('assets/bg-img.jpg'); background-size: cover; height: 480px;"> -->
+    <div class="container" id="zintle">
+      <div class="row content">
+          <div class="col-md-6 text">
+            <h1>Hi, I'm <span>Zintle Meslane.</span> Full Stack Website Developer</h1>
+            <h3>This is my official portfolio website.</h3>
+            <h4>For good looking Websites and Web Apps specializing in Angular </h4>
+            <button class="cv"><a href="https://drive.google.com/file/d/1mEpGIxPnSILCidSMBMZ6D92hvSHSs3tX/view?usp=sharing">DOWNLOAD CV</a></button><br>
+
+            <button class="cv"><a href="https://drive.google.com/file/d/17s7ilbUuW3HbRwNeiK-tQX-o1mEm4zI3/view?usp=sharing">Portfolio</a></button>
+          </div>
+
+          <!-- <div class="col-md-6 mb-3">
+            <img src="assets/zintle.jpg" class="img" alt="">
+          </div> -->
+      </div>
+  </div>       
+    
+  </section>

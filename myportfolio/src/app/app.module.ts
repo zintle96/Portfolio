@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { RouterModule } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PortfolioComponent,
-    NavbarComponent
+    NavbarComponent,
+    ContactComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
