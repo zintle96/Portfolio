@@ -1,12 +1,4 @@
 
-/* .container-fluid {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-} */
-
 .container {
     padding-top: 15px;
 }
@@ -44,15 +36,6 @@
     width: 40%;
 }
 
-/* .img {
-    width: 250px;
-    height: 300px;
-    border-radius: 100px;
-    position: absolute;
-    right: 100px;
-} */
-
-
 .row-form {
     display: block;
     border-style: none;
@@ -83,20 +66,12 @@
     flex-direction: column;
     justify-items: center;
 }
-/* .card-deck .container{
-    gap: 0.1rem;
-} */
-
-/* cards */
 
 /* .card-container{
     display: flex;
     flex-direction: row;
 } */
 
-/* #references {
-    margin-bottom: 5%;
-} */
 .projects {
     
     background-size: cover;
@@ -106,6 +81,7 @@
 .btn {
     margin: 15px 0;
     padding: 8px 8px;
+    color: white;
     background-color: rgba(72, 204, 197, 0.945);
     border-style: none;
     letter-spacing: 1em;
