@@ -14,12 +14,12 @@
         
           </p>
         
-          <form action="https://meslanezintle@gmail.com" method="POST" id="form">
-          <input type="text" id="name" placeholder="Name" required>
-          <input type="email" id="email" placeholder="Email" required>
-          <textarea id="subject" name="message"  placeholder="Message" class="input-control" required></textarea>
+          <form [formGroup]="formValue">
+          <input type="text" formControlName="firstName" class="form-control" id="name" placeholder="Name" required>
+          <input type="email" formControlName="email" class="form-control" id="email" placeholder="Email" required>
+          <textarea formControlName="message" id="subject" name="message"  placeholder="Message" class="input-control" required></textarea>
         </form>
-        <button class="submit">SEND A MESSAGE</button>
+        <button class="submit">SEND</button>
       
     </div>
       

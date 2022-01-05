@@ -14,6 +14,19 @@
     transition: 2s;
   }
   .image img {
-      border-radius: 50%;
-      width: 80%;
+      border-radius: 40%;
+      width: 40%;
+  }
+  .show {
+      margin: 3%;
+      border-radius: 25px;
+      border: none;
+      background-color: rgba(72, 204, 197, 0.945);
+      color: #000;
+  }
+  .skills {
+      margin-top: 3.5%;
+  }
+  p {
+      font-size: 25px;
   }

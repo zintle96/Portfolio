@@ -8,6 +8,7 @@ import { FormBuilder} from '@angular/forms';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
+  formValue!: FormGroup;
 
   constructor(private builder: FormBuilder, ) { }
 
