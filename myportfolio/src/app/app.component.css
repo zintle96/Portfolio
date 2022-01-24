@@ -13,3 +13,6 @@
     background-color: rgba(72, 204, 197, 0.945);
     border-color: rgba(72, 204, 197, 0.945);
 }
+.btn-primary:hover {
+    color: indianred;
+}

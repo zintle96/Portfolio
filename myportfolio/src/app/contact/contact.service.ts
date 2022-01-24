@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { map } from 'rxjs';
 
 
 @Injectable({
@@ -7,5 +8,18 @@ import { HttpClientModule } from '@angular/common/http';
 })
 export class ContactService {
 
-  constructor(private http: HttpClientModule) { }
+  constructor() { }
+  // postMessage(input: any){
+  //   return this.http.post(this.api, input, { responseType: 'text'}).pipe(map((response: any) => {
+  //     if (response) {
+  //       return response;
+  //     }
+  //   },
+  //   (error: any) => {
+  //     return error;
+  //   }
+  //   )
+  //   )
+  // }
 }
+

@@ -34,7 +34,7 @@
     filter: brightness(30%);
 }
 .services {
-    
+
     background: linear-gradient( rgba(0, 0, 0, 0.534), rgba(0, 0, 0, 0.61) ), url('/assets/sample.jpeg');
     background-size: cover;
     font-family: 'Source Code Pro', monospace;
@@ -69,3 +69,4 @@ span {
 .cv a:hover {
     color: grey;
 }
+

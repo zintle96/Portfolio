@@ -1,4 +1,3 @@
-<router-outlet></router-outlet>
 
 <section class="contact">
     <div class="container" >
@@ -10,19 +9,18 @@
 
         <div class="col-md-6 par">
           <p> You have a business that you want to market for your goods and services but don't have a website or app? I am your go-to person.
-            I develop sites from scratch. From designing to its functionality (Front-end and Back-end) and then deploy them for you. 
-        
+            I develop sites from scratch. From designing to its functionality (Front-end and Back-end) and then deploy them for you.
+
           </p>
-        
-          <form [formGroup]="formValue">
+
+          <form action="https://formsubmit.co/meslanezintle@gmail.com" method="POST">
           <input type="text" formControlName="firstName" class="form-control" id="name" placeholder="Name" required>
           <input type="email" formControlName="email" class="form-control" id="email" placeholder="Email" required>
           <textarea formControlName="message" id="subject" name="message"  placeholder="Message" class="input-control" required></textarea>
+          <button class="submit" [disabled]="!FormData.valid">SEND</button>
         </form>
-        <button class="submit">SEND</button>
-      
     </div>
-      
+
       </div>
   </div>
   </section>
@@ -38,6 +36,6 @@
           <a href="mailto:meslanezintle@gmail.com" target="blank"><i class="far fa-envelope"></i></a>
       </div>
       <p class="lead" style="color: black;">Created by Zintle Meslane &copy; 2021 Developer Portfolio</p>
-    
+
     </div>
     </footer>
